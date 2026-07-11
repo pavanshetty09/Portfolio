@@ -26,7 +26,7 @@ export default function ContactSection() {
 
         const text = `Hello, my name is ${form.name}%0A%0A${form.message}`;
 
-        const phone = "918792064575";
+        const phone = "+91 8792064575";
 
         window.open(
             `https://wa.me/${phone}?text=${text}`,
@@ -650,7 +650,7 @@ error: remote origin already exists."
   Copyright © {new Date().getFullYear()} All Rights Reserved | Created by{" "}
   
   <span className="relative inline-block text-white/70">
-    prince
+    Paramesh 
     <span className="absolute left-1/2 -translate-x-1/2 -bottom-2">
       <div className="h-px w-24 bg-gradient-to-r from-transparent via-white/25 to-transparent" />
     </span>
