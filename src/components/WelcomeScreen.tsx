@@ -127,9 +127,9 @@ export default function WelcomeScreen() {
               duration: 1.2,
               ease: [0.22, 1, 0.36, 1],
             }}
-            className="text-[clamp(24px,6vw,38px)] font-black tracking-tight leading-tight text-center"
+            className="text-[clamp(24px,6vw,38px)] font-black tracking-tight leading-tight text-center whitespace-nowrap"
           >
-            I Am Paramesh D K
+            I am Paramesh D K
           </motion.h1>
         </div>
 
