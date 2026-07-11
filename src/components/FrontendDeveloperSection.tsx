@@ -198,7 +198,7 @@ export default function FrontendDeveloperSection() {
             initial={{ y: "-100%", opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: "-100%", opacity: 0 }}
-            transition={{ duration: 1.1, ease: [0.22, 1, 0.36, 1] }}
+            transition={{ duration: 0.1, ease: [0.22, 1, 0.36, 1] }}
             className="absolute inset-0 z-[5] pointer-events-none"
           >
             <Suspense fallback={null}>

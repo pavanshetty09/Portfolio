@@ -426,12 +426,12 @@ function Band({
           }
         >
           <CuboidCollider
-            args={[0.8, 1.125, 0.01]}
+            args={[0.7, 1.0, 0.01]}
           />
 
           <group
             scale={
-              isMobile ? 1.7 : 2.25
+              isMobile ? 1.3 : 1.8
             }
             position={[0, -1.2, -0.05]}
             onPointerOver={() =>
@@ -472,7 +472,7 @@ function Band({
             <mesh
               position={[0, 0, 0.06]}
               rotation={[0, 0, 0]}
-              scale={[1.1, 1.55, 1]}
+              scale={[1.0, 1.4, 1]}
               renderOrder={999}
             >
               <planeGeometry args={[0.9, 1.25]} />
